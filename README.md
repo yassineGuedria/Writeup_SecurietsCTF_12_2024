@@ -18,7 +18,7 @@ i have played in SECURINETSISITCOM_CTF and i want to share my solution
 ## WEB
 Details 
 ## Cryptographie
-{Cryptographie.md}
+<include src="Cryptographie.md"></include>
 ## Reverse Engineering
 Details 
 ## Forensic
