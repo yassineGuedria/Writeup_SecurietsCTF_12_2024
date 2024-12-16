@@ -5,7 +5,7 @@
 
 ---
 ## Challenge1
-Points :150 <br />
+Points :500 <br />
 Description : <br />
 file : 	[oussema _was_here.pdf](oussema-_was_here.pdf) <br />
 Solution : 	<br />
@@ -38,7 +38,7 @@ result :
 
 
 ## Challenge2
-Points :150 <br />
+Points :1000 <br />
 Description : <br />
 file : 	[hello.png](hello.png) [world.jpg](world.jpg) <br />
 Solution : 	<br />
