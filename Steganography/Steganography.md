@@ -1,4 +1,4 @@
-# Here is my Steganographie Solutions
+# Here is my Steganography Solutions
 - [Challenge1](#challenge1)
 - [Challenge2](#challenge2)
 - [Challenge3](#challenge3)
