@@ -17,13 +17,13 @@ i have played in SECURINETSISITCOM_CTF and i want to share my solution
 
 ---
 ## MISC
-[Click Here](MISC.md)
+[Click Here](MISC/Misc.md)
 ## Steganographie
-[Click Here](Steganography/Steg.md)
+[Click Here](Steganography/Steganography.md)
 ## Cryptographie
-[Click Here](Cryptographie.md)
+[Click Here](Cryptographie/Cryptographie.md)
 ## Forensic
-[Click Here](Forensic.md)
+[Click Here](Forensic/Forensic.md)
 ## Reverse Engineering
 [Click Here](Reverse_Engineering.md)
 ## OSINT
