@@ -15,7 +15,7 @@ i already tried to do bunch of commands but nothing works<br />
 >$ binwalk oussema _was_here.pdf<br />
 
 but it was a Xref pdf that hide an image inside it and require a script to output the image from the pdf 
-and here is my python script
+and here is my python script:
 ```py
 import pymupdf as UmPDF
 
@@ -33,6 +33,7 @@ with UmPDF.open(CHALL_PDF) as file:
         for chunk in chunks:
             image_f.write(chunk)
 ```
+result : 
 ![flag](https://github.com/user-attachments/assets/3e3a1619-01c9-4cc7-a9d1-bd9f2cc78651)
 
 
