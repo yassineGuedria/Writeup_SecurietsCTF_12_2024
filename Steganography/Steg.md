@@ -9,7 +9,9 @@ Points :150 <br />
 Description : <br />
 file : 	[secret_document.pdf](secret_document.pdf) <br />
 Solution : 	<br />
->$ exiftool secret_document.pdf<
+>$ exiftool secret_document.pdf
+
+
 ![image](https://github.com/user-attachments/assets/2026e975-c6da-4676-92f1-dbff24128319)
 
 
