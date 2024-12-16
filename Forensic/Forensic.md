@@ -9,7 +9,13 @@ Points :150 <br />
 Description : <br />
 file : 	[oussema _was_here.pdf](oussema-_was_here.pdf) <br />
 Solution : 	<br />
->$ exiftool secret_document.pdf
+i already tried to do bunch of commands but nothing works
+>$ exiftool oussema _was_here.pdf
+>$ strings oussema _was_here.pdf | grep SECURINETSISITCOM
+>$ binwalk oussema _was_here.pdf
+but it was a Xref pdf that hide an image inside it and require a script to output the image from the pdf 
+and here is my python script
+
 ## Challenge2
 Details
 ## Challenge3
