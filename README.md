@@ -15,18 +15,18 @@ i have played in SECURINETSISITCOM_CTF and i want to share my solution
 -[MISC]
 -[Steganographie]
 ---
-#WEB
+# WEB
 Details 
-##Cryptographie
+## Cryptographie
 Details 
-###Reverse Engineering
+### Reverse Engineering
 Details 
-####Forensic
+### #Forensic
 Details 
-#####OSINT
+##### OSINT
 Details 
-######MISC
+###### MISC
 Details 
-#######Steganographie
+####### Steganographie
 Details 
 
