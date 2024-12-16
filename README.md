@@ -18,9 +18,7 @@ i have played in SECURINETSISITCOM_CTF and i want to share my solution
 ## WEB
 Details 
 ## Cryptographie
-<!-- BEGIN CRYPTOGRAPHIE -->
-
-<!-- END CRYPTOGRAPHIE -->
+[include](File:Cryptographie.mr)
 ## Reverse Engineering
 Details 
 ## Forensic
