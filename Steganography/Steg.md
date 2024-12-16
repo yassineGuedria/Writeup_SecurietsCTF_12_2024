@@ -5,11 +5,11 @@
 
 ---
 ## Challenge1
-Points :150	<ins>
-Description :	<ins>
-file : 	<ins>
+Points :150	<ins> </ins>
+Description :	<ins> </ins>
+file : 	<ins> </ins>
 [secret_document.pdf](secret document.pdf)\n
-Solution : 	<ins>
+Solution : 	<ins> </ins>
 >$ exiftool secret_document.pdf
 
 Solution: 
