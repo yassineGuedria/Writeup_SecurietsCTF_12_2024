@@ -5,7 +5,11 @@
 
 ---
 ## Challenge1
-Details 
+Points :150 <br />
+Description : <br />
+file : 	[oussema _was_here.pdf](oussema-_was_here.pdf) <br />
+Solution : 	<br />
+>$ exiftool secret_document.pdf
 ## Challenge2
 Details
 ## Challenge3
