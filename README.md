@@ -8,7 +8,7 @@ i have played in SECURINETSISITCOM_CTF and i want to share my solution
 ![image](https://github.com/user-attachments/assets/d16549fa-4fb3-492e-b01e-735a763834e0)
 
 - [WEB](#web)
-- [Cryptographie](#Cryptographie.md)
+- [Cryptographie](cryptographie.md)
 - [Reverse Engineering](#reverse-engineering)
 - [Forensic](#forensic)
 - [OSINT](#osint)
