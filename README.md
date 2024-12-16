@@ -19,7 +19,7 @@ i have played in SECURINETSISITCOM_CTF and i want to share my solution
 ## MISC
 [Click Here](MISC.md)
 ## Steganographie
-[Click Here](Steganographie/st.md)
+[Click Here](Steganography/st.md)
 ## Cryptographie
 [Click Here](Cryptographie.md)
 ## Forensic
