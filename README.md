@@ -7,13 +7,13 @@ i have played in SECURINETSISITCOM_CTF and i want to share my solution
 
 ![image](https://github.com/user-attachments/assets/d16549fa-4fb3-492e-b01e-735a763834e0)
 
-- [WEB]
-- [Cryptographie](Cryptographie.md)
-- [Reverse Engineering]
-- [Forensic]
-- [OSINT]
-- [MISC]
-- [Steganographie]
+- [WEB](#web)
+- [Cryptographie](#cryptographie)
+- [Reverse Engineering](#reverse-engineering)
+- [Forensic](#forensic)
+- [OSINT](#osint)
+- [MISC](#misc)
+- [Steganographie](#steganographie)
 ---
 # WEB
 Details 
@@ -21,7 +21,7 @@ Details
 Details 
 ### Reverse Engineering
 Details 
-### #Forensic
+#### Forensic
 Details 
 ##### OSINT
 Details 
