@@ -1,4 +1,4 @@
-# Here is my Cryptographie Solution
+# Here is my Cryptography Solution
 - [Challenge1](#challenge1)
 - [Challenge2](#challenge2)
 - [Challenge3](#challenge3)
