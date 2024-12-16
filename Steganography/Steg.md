@@ -10,8 +10,8 @@ Description : <br />
 file : 	[secret_document.pdf](secret_document.pdf) <br />
 Solution : 	<br />
 >$ exiftool secret_document.pdf
+![Uploading image.png…]()
 
-Solution: 
 ## Challenge2
 Details
 ## Challenge3
