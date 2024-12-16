@@ -27,6 +27,6 @@ Details
 Details 
 ###### MISC
 Details 
-####### Steganographie
+###### Steganographie
 Details 
 
