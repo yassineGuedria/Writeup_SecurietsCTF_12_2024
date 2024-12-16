@@ -13,8 +13,26 @@ i already tried to do bunch of commands but nothing works
 >$ exiftool oussema _was_here.pdf
 >$ strings oussema _was_here.pdf | grep SECURINETSISITCOM
 >$ binwalk oussema _was_here.pdf
+
 but it was a Xref pdf that hide an image inside it and require a script to output the image from the pdf 
 and here is my python script
+```py
+import pymupdf as UmPDF
+
+CHALL_PDF = 'oussema _was_here.pdf'
+SOLVE_IMG = 'flag.png'
+
+with UmPDF.open(CHALL_PDF) as file:
+    with open(SOLVE_IMG, 'wb') as image_f:
+        chunks = []
+        xreflen = file.xref_length()  # length of objects table
+        for xref in range(20, xreflen):
+            if stream := file.xref_stream(xref):
+                chunks.append(stream)
+
+        for chunk in chunks:
+            image_f.write(chunk)
+```
 
 ## Challenge2
 Details
