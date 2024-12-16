@@ -7,8 +7,7 @@
 ## Challenge1
 Points :150 <br />
 Description : <br />
-file : 	<ins> <br />
-[secret_document.pdf](secret document.pdf)\n
+file : 	[secret_document.pdf](secret_document.pdf) <br />
 Solution : 	<br />
 >$ exiftool secret_document.pdf
 
