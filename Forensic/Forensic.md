@@ -38,8 +38,38 @@ result :
 
 
 ## Challenge2
+![image](https://github.com/user-attachments/assets/26b0cd4e-2a5c-4378-9087-c3020e9057e4)
+
 details
 
 ## Challenge3
+![image](https://github.com/user-attachments/assets/7e715c2f-91e6-4217-8acb-c63b52074322)
+
 Details 
+
+## Challenge4
+![image](https://github.com/user-attachments/assets/bb74e8de-38a9-4dd2-9f24-ce7e926580e3)
+
+Details 
+
+## Challenge5
+![image](https://github.com/user-attachments/assets/67e9a5a3-1cae-4149-a533-69162cd7b642)
+
+Details
+
+## Challenge6
+![image](https://github.com/user-attachments/assets/19a6cb60-e6ec-4bbb-a7ba-3f0aeab03c04)
+Details
+
+## Challenge7
+![image](https://github.com/user-attachments/assets/27d90f4d-e27c-48e8-9b6b-1565e450cb90)
+
+Details
+
+
+## Challenge7
+![image](https://github.com/user-attachments/assets/9728e39a-0533-4b44-bc98-16344e80c35f)
+
+Details
+
 
