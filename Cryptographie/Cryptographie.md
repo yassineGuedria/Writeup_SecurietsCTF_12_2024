@@ -53,10 +53,21 @@ Points :200 <br />
 Description : <br />
 file : 	[assembly.asm](assembly.asm)  <br />
 Solution : 	<br />
-we have assembly code in this challenge 
+We have assembly code in this challenge .
 
-first thing i did is i converted the `assembly` code to `C language` and then i excuted the `C` code .<br />
-i used this [Website](https://www.codeconvert.ai/assembly-to-c-converter) to do the convertation : 
+First thing i did is i converted the `assembly` code to `C language`. <br />
+I used this [Website](https://www.codeconvert.ai/assembly-to-c-converter) to do the convertation. <br />
+And then i executed the `C` code to get this cypher :  <br />
+>awqg`{|wfa{a{fq}i[M^]DWMSAA_WP^Ko
+
+![image](https://github.com/user-attachments/assets/53054f15-c3ae-4ff1-8ebf-fe3c92f5a8a5)
+
+Thanks to the CyberChef `magic` thats help me identify the cypher type ,which was `XOR` .
+
+![image](https://github.com/user-attachments/assets/09904607-c8da-4b55-8c1a-ed97bb849802)
+
+
+ 
 
 
 
