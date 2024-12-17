@@ -10,12 +10,43 @@ Points :150 <br />
 Description : <br />
 file : 	[Output.txt](Output.txt)  <br />
 Solution : 	<br />
-We were given an RSA-encrypted flag with the following parameters:
+We were given an RSA-encrypted flag with the following parameters:<br />
 
-N: Modulus
-e: Public exponent (e = 3 in this case)
-encFlag: Ciphertext
-The goal was to decrypt the flag.
+N: Modulus<br />
+e: Public exponent (e = 3 in this case)<br />
+encFlag: Ciphertext<br />
+The goal was to decrypt the flag.<br />
+![image](https://github.com/user-attachments/assets/6ee71002-bb05-4328-8348-6070d01e7d60)
+
+the code i used in this case is : <br />
+```py
+import gmpy2
+
+# Given RSA parameters
+N = 18814840635346619874425333469811897321549418263501570889282825750834515074675420955536024872473333925100162290869450343342196370005147241590450746764679485718567750837860298441879336049949463769103929953264633072242523089509554532420960226194229074889893991993272393955287647019173019565996826761031489963195126291001577851134834313095727805927258826762839259238704853071924049305921348548805171136582998855037946513227862183246591156434241274337978149248881248098712196426195343743140711782990404627731190157041047720437406870278036078843043167368486244024032010310184530070850162225094426996919028658409155918085541
+e = 0x3
+encFlag = 26572349774532122558413822660787565800876859961042748864197505662294319821137420537449406034432755970252620682951620140376826571119571396577525308224469379695704886151366719681917316926664475491403254419941927069176375066837735027264004604420524982390706651874487308796663467648818962491218331170345389279578813057125
+
+# Check if c < N (ciphertext smaller than modulus)
+if encFlag < N:
+    # Attempt to find the cubic root of the ciphertext
+    m, exact = gmpy2.iroot(encFlag, e)
+    if exact:
+        # Convert the result to a string (decoded plaintext)
+        print("Decrypted plaintext (flag):", bytes.fromhex(hex(int(m))[2:]).decode())
+    else:
+        print("Cubic root not exact; decryption failed.")
+else:
+    print("Ciphertext larger than modulus. Decryption not directly possible.")
+
+```
+
+and the flag is :<br />
+![image](https://github.com/user-attachments/assets/e0b93355-1015-4ec8-89eb-45322bf9a66b)
+
+
+
+
 
 ## Challenge2
 Points :1000 <br />
