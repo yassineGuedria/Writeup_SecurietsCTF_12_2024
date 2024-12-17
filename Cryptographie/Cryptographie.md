@@ -4,12 +4,12 @@
 - [1-Can U Crack [Station] IT!](#challenge3)
 - [2-Can U Crack [Station] IT!](#challenge4)
 - [DO U KNOW ELLIOT FROM MR.ROBOT , CAN U XOR HIM](#challenge5)
-- [Challenge6](#challenge6)
+- [Encoding Loop (Maybe 5 in 1)](#challenge6)
 
 ---
 
 ## Challenge1
-Name : RSA MY LOVE<br />
+Name : `RSA MY LOVE` <br />
 Points :500 <br />
 Description :mmm do you know that RSA is my initial step in learning cryptography challenges in CTF? any way, can you break this for me? <br />
 file : 	[Output.txt](Output.txt)  <br />
@@ -99,7 +99,7 @@ After using [Crackstation](https://crackstation.net/) with this hash we got the 
 
 
 ## Challenge5
-Name : DO U KNOW ELLIOT FROM MR.ROBOT , CAN U XOR HIM?<br />
+Name : `DO U KNOW ELLIOT FROM MR.ROBOT , CAN U XOR HIM?` <br />
 Points :1000 <br />
 Description : I have hidden two interesting images using XOR with the same secret key , so they are not visible!  <br />
 file : 	[hello.png](hello.png) [world.jpg](world.jpg) <br />
@@ -147,6 +147,7 @@ and here is the flag :
 
 
 ## Challenge6
+Name : `Encoding Loop (Maybe 5 in 1)`<br />
 Points :200 <br />
 Description : <br />
 file : 	[encflag.txt](encflag.txt) <br />
