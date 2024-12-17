@@ -38,49 +38,7 @@ result :
 
 
 ## Challenge2
-Points :1000 <br />
-Description : <br />
-file : 	[hello.png](hello.png) [world.jpg](world.jpg) <br />
-Solution : 	<br />
-To solve this challenge, were given two images, `hello.png` and `world.jpg`, and needed to XOR them to extract the flag .
-here is my code :
-```py
-import cv2
-
-def bitwise_xor_images(image1_path, image2_path):
-  try:
-    image1 = cv2.imread(image1_path)
-    image2 = cv2.imread(image2_path)
-
-    if image1 is None or image2 is None:
-      print("Error: Could not read one or both images.")
-      return None
-
-    # Resize image2 to match image1's size
-    if image1.shape != image2.shape:
-      image2 = cv2.resize(image2, dsize=(image1.shape[1], image1.shape[0]))
-
-    result = cv2.bitwise_xor(image1, image2)
-
-    return result
-
-  except Exception as e:
-    print(f"An error occurred: {e}")
-    return None
-
-if __name__ == "__main__":
-  image1_path = "./hello.png"
-  image2_path = "./world.jpg"
-
-  result_image = bitwise_xor_images(image1_path, image2_path)
-
-  if result_image is not None:
-    cv2.imshow("xored data", result_image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
-```
-and here is the flag :
-![image](https://github.com/user-attachments/assets/a212e35f-f5e8-4fb8-875a-ac8a1f805ba1)
+details
 
 ## Challenge3
 Details 
