@@ -1,12 +1,15 @@
 # Here is my Cryptography Solutions
-- [Challenge1](#RSA-MY-LOVE)
-- [Challenge2](#challenge2)
-- [Challenge3](#challenge3)
-- [Challenge4](#DO U KNOW ELLIOT FROM MR.ROBOT , CAN U XOR HIM?)
+- [RSA MY LOVE](#challenge1)
+- [Assembly](#challenge2)
+- [1-Can U Crack [Station] IT!](#challenge3)
+- [2-Can U Crack [Station] IT!](#challenge4)
+- [DO U KNOW ELLIOT FROM MR.ROBOT , CAN U XOR HIM](#challenge5)
+- [Challenge6](#challenge6)
 
 ---
 
-## RSA MY LOVE
+## Challenge1
+Name : RSA MY LOVE<br />
 Points :500 <br />
 Description :mmm do you know that RSA is my initial step in learning cryptography challenges in CTF? any way, can you break this for me? <br />
 file : 	[Output.txt](Output.txt)  <br />
@@ -73,38 +76,30 @@ And then i executed the `C` code to get this cypher :  <br />
 
 
 ## Challenge3
-Points :200 <br />
-Description : <br />
-file : 	[encflag.txt](encflag.txt) <br />
+Name : 1-Can U Crack [Station] IT! <br />
+Points :100 <br />
+Description : Can u crack this hash `48bb6e862e54f2a795ffc4e541caed4d`  <br />
 Solution : 	<br />
-we have in this challenge a multi layer cypher and we need to decode it 
+After using [Crackstation](https://crackstation.net/) with this hash we got the flag :<br />
+![image](https://github.com/user-attachments/assets/cfa83d32-7910-4526-8f4c-1f528d7d1415)<br />
 
->### First , as the last char of this cypher is '=' so maybe it can be a `base64` <br />
+`SECURINETSISITCOM{easy}`
 
-![image](https://github.com/user-attachments/assets/3a88b1ad-70bd-42ed-aabf-b5574f3b138e)<br />
+## Challenge4
+Name : 2-Can U Crack [Station] IT! <br />
+Points :100 <br />
+Description : Can u crack this hash `CBFDAC6008F9CAB4083784CBD1874F76618D2A97`  <br />
+Solution : 	<br />
+After using [Crackstation](https://crackstation.net/) with this hash we got the flag :<br />
+![image](https://github.com/user-attachments/assets/5cdbc710-749a-4c0a-ae8f-4ef5ddf5c25b)<br />
 
->### Lets try to convert this numbers from base64 to `hex`<br />
- 
-![image](https://github.com/user-attachments/assets/980fb81b-d3e2-4623-ae38-7d1e72c484c0)<br />
-
->### And now it gives us `binary` numbers  <br />
-
-![image](https://github.com/user-attachments/assets/bc0db4e4-1ecf-4ebc-9107-76be63005275)<br />
-
->### This time the numbers that we got looks like `decimal` <br />
-
-![image](https://github.com/user-attachments/assets/fb4a8090-4d86-4e82-939d-15d8e1bb3b8a)<br />
-
->### And finally this cypher is `rot13` <br />
-
-![image](https://github.com/user-attachments/assets/706e4e5e-7a61-4948-a1fb-86c4ee18ac13)<br />
-<br />
-#### In this challenge the flag is coded in muli layers , we need to decode the cypher from `base64` to `hex` to `binary` to `decimal` to `rot13` to get the flag
-`SECURINETSISITCOM{ROT13-DECIMAL-BINARY-HEX-BASE64}`
+`SECURINETSISITCOM{password123}`
 
 
 
-## DO U KNOW ELLIOT FROM MR.ROBOT , CAN U XOR HIM?
+
+## Challenge5
+Name : DO U KNOW ELLIOT FROM MR.ROBOT , CAN U XOR HIM?<br />
 Points :1000 <br />
 Description : I have hidden two interesting images using XOR with the same secret key , so they are not visible!  <br />
 file : 	[hello.png](hello.png) [world.jpg](world.jpg) <br />
@@ -148,6 +143,42 @@ if __name__ == "__main__":
 ```
 and here is the flag :
 ![image](https://github.com/user-attachments/assets/a212e35f-f5e8-4fb8-875a-ac8a1f805ba1)
+
+
+
+## Challenge6
+Points :200 <br />
+Description : <br />
+file : 	[encflag.txt](encflag.txt) <br />
+Solution : 	<br />
+we have in this challenge a multi layer cypher and we need to decode it 
+
+>### First , as the last char of this cypher is '=' so maybe it can be a `base64` <br />
+
+![image](https://github.com/user-attachments/assets/3a88b1ad-70bd-42ed-aabf-b5574f3b138e)<br />
+
+>### Lets try to convert this numbers from base64 to `hex`<br />
+ 
+![image](https://github.com/user-attachments/assets/980fb81b-d3e2-4623-ae38-7d1e72c484c0)<br />
+
+>### And now it gives us `binary` numbers  <br />
+
+![image](https://github.com/user-attachments/assets/bc0db4e4-1ecf-4ebc-9107-76be63005275)<br />
+
+>### This time the numbers that we got looks like `decimal` <br />
+
+![image](https://github.com/user-attachments/assets/fb4a8090-4d86-4e82-939d-15d8e1bb3b8a)<br />
+
+>### And finally this cypher is `rot13` <br />
+
+![image](https://github.com/user-attachments/assets/706e4e5e-7a61-4948-a1fb-86c4ee18ac13)<br />
+<br />
+#### In this challenge the flag is coded in muli layers , we need to decode the cypher from `base64` to `hex` to `binary` to `decimal` to `rot13` to get the flag
+`SECURINETSISITCOM{ROT13-DECIMAL-BINARY-HEX-BASE64}`
+
+
+
+
 
 
 
