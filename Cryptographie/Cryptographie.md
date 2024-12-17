@@ -5,6 +5,7 @@
 - [2-Can U Crack [Station] IT!](#challenge4)
 - [DO U KNOW ELLIOT FROM MR.ROBOT , CAN U XOR HIM](#challenge5)
 - [Encoding Loop (Maybe 5 in 1)](#challenge6)
+- [MY XOR](#challenge7)
 
 ---
 
@@ -53,6 +54,7 @@ and the flag is :<br />
 
 
 ## Challenge2
+Name : `Assembly`<br />
 Points :200 <br />
 Description : <br />
 file : 	[assembly.asm](assembly.asm)  <br />
@@ -177,6 +179,27 @@ we have in this challenge a multi layer cypher and we need to decode it
 #### In this challenge the flag is coded in muli layers , we need to decode the cypher from `base64` to `hex` to `binary` to `decimal` to `rot13` to get the flag
 `SECURINETSISITCOM{ROT13-DECIMAL-BINARY-HEX-BASE64}`
 
+
+## Challenge7
+Name : `MYXOR` <br /> 
+Points :200 <br />
+Description : I understand that I've encrypted the flag with my secret key , and it might feel frustrating to think you'll never be able to guess it.<br />
+file : 	[TASK 1.txt](TASK1.txt)  <br />
+Solution : 	<br />
+In this challenge, the ciphertext was given as a hex string encoded with an XOR cipher. The XOR cipher works by applying a key to plaintext using the XOR operation, which is reversible:<br />
+![image](https://github.com/user-attachments/assets/a488cd56-ae65-437c-b6a2-ec026515d1d7)<br />
+
+To solve it : 
+1. Converte the hex-encoded ciphertext to bytes.
+2. Used the known flag format `SECURINETSISITCOM{` to XOR against the ciphertext, revealing the repeating key: `kingisthekey`.
+![image](https://github.com/user-attachments/assets/e429e172-e98f-42db-a1fc-10848db7ae67)
+4. Re-applied `kingisthekey` as the key to the full ciphertext using `CyberChef`, which decrypted it to the flag:
+![image](https://github.com/user-attachments/assets/adfb4915-c576-4689-854f-05d9dfc6a6ed)
+
+
+`SECURINETSISITCOM{NICE_YOU_FIND_THE_TRICK___GO_TO_THE_NEXT_TASK}`
+   
+<br />
 
 
 
