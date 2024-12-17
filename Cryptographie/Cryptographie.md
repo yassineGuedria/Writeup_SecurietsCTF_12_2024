@@ -67,12 +67,6 @@ Thanks to the CyberChef `magic` thats help me identify the cypher type ,which wa
 ![image](https://github.com/user-attachments/assets/09904607-c8da-4b55-8c1a-ed97bb849802)
 
 
- 
-
-
-
-
-
 ## Challenge3
 Points :200 <br />
 Description : <br />
