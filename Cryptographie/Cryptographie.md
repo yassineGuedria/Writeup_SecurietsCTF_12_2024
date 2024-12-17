@@ -49,10 +49,15 @@ and the flag is :<br />
 
 
 ## Challenge2
-Points :1000 <br />
+Points :200 <br />
 Description : <br />
-file : 	[hello.png](hello.png) [world.jpg](world.jpg) <br />
+file : 	[assembly.asm](assembly.asm)  <br />
 Solution : 	<br />
+we have assembly code in this challenge 
+
+first thing i did is i converted the `assembly` code to `C language` and then i excuted the `C` code .<br />
+i used this [Website](https://www.codeconvert.ai/assembly-to-c-converter) to do the convertation : 
+
 
 
 
