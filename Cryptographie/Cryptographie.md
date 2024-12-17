@@ -62,7 +62,11 @@ And then i executed the `C` code to get this cypher :  <br />
 
 ![image](https://github.com/user-attachments/assets/53054f15-c3ae-4ff1-8ebf-fe3c92f5a8a5)
 
-Thanks to the CyberChef `magic` thats help me identify the cypher type ,which was `XOR` .
+<br />
+
+### Thanks to the CyberChef `magic` recipe that help me identify the cypher type ,which is `XOR` .
+
+<br />
 
 ![image](https://github.com/user-attachments/assets/09904607-c8da-4b55-8c1a-ed97bb849802)
 
@@ -74,27 +78,27 @@ file : 	[encflag.txt](encflag.txt) <br />
 Solution : 	<br />
 we have in this challenge a multi layer cypher and we need to decode it 
 
->### first , as the last char of this cypher is '=' so maybe it can be a `base64` 
+>### First , as the last char of this cypher is '=' so maybe it can be a `base64` <br />
 
-![image](https://github.com/user-attachments/assets/3a88b1ad-70bd-42ed-aabf-b5574f3b138e)
+![image](https://github.com/user-attachments/assets/3a88b1ad-70bd-42ed-aabf-b5574f3b138e)<br />
 
->### lets try to convert this numbers from base64 to `hex`
+>### Lets try to convert this numbers from base64 to `hex`<br />
  
-![image](https://github.com/user-attachments/assets/980fb81b-d3e2-4623-ae38-7d1e72c484c0)
+![image](https://github.com/user-attachments/assets/980fb81b-d3e2-4623-ae38-7d1e72c484c0)<br />
 
->### and now it gives us `binary` numbers  
+>### And now it gives us `binary` numbers  <br />
 
-![image](https://github.com/user-attachments/assets/bc0db4e4-1ecf-4ebc-9107-76be63005275)
+![image](https://github.com/user-attachments/assets/bc0db4e4-1ecf-4ebc-9107-76be63005275)<br />
 
->### this time the numbers that we got looks like `decimal` 
+>### This time the numbers that we got looks like `decimal` <br />
 
-![image](https://github.com/user-attachments/assets/fb4a8090-4d86-4e82-939d-15d8e1bb3b8a)
+![image](https://github.com/user-attachments/assets/fb4a8090-4d86-4e82-939d-15d8e1bb3b8a)<br />
 
->### and this time this cypher is `rot13` 
+>### And finally this cypher is `rot13` <br />
 
-![image](https://github.com/user-attachments/assets/706e4e5e-7a61-4948-a1fb-86c4ee18ac13)
-
-#### in this challenge the flag is coded in muli layers , we need to decode the cypher from `base64` to `hex` to `binary` to `decimal` to `rot13` to get the flag
+![image](https://github.com/user-attachments/assets/706e4e5e-7a61-4948-a1fb-86c4ee18ac13)<br />
+<br />
+#### In this challenge the flag is coded in muli layers , we need to decode the cypher from `base64` to `hex` to `binary` to `decimal` to `rot13` to get the flag
 `SECURINETSISITCOM{ROT13-DECIMAL-BINARY-HEX-BASE64}`
 
 
