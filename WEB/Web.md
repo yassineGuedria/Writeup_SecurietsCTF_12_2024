@@ -16,7 +16,7 @@ Solution : <br />
 
 ![image](https://github.com/user-attachments/assets/0f3a10fe-28ec-40e2-ad97-6310da3d1ea2)
 
-There is inly the first part of the flag , and to retreave all part of it we gonna use a python script that send all type of request methodes to `151.80.133.55:9000`. <br />
+There is only the first part of the flag , and to retreave all part of it we gonna use a python script that send all type of request methodes to `151.80.133.55:9000`. <br />
 Here a [Link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) if u want to know more about `HTTP Request Methodes`<br />
 And here is the Python Script : 
 
