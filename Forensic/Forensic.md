@@ -1,7 +1,7 @@
 # Here is my Forensic Solution
 - [Challenge1](#challenge1)
 - [Incognito XD](#challenge2)
-- [STEG TN](#challenge3)
+- [WH3R3 1S M3](#challenge3)
 - [Challenge3](#challenge4)
 
 ---
@@ -54,19 +54,32 @@ Alternatively, using `Ctrl + F` to search for the flag pattern `SECURINETSISITCO
 ![image](https://github.com/user-attachments/assets/7f139e9e-98c7-46ad-9baf-ab48134b3e83)
 
 
-
-
-
-
-## Challenge4
+## Challenge3
 ![image](https://github.com/user-attachments/assets/bb74e8de-38a9-4dd2-9f24-ce7e926580e3)
 
-Details 
 
-## Challenge5
-![image](https://github.com/user-attachments/assets/67e9a5a3-1cae-4149-a533-69162cd7b642)
+File : [where_is_me.zip](where_is_me.zip)  <br />
+Solution : 	<br />
+In this challenge, we have zip file with password to unzip it, when we look at challenge description we find "Maybe the Author". <br />
+So we can try to input Authors names as password: <br />
+`Jarbou3`,`Kanzu`,`King`,`Black_Shadow`<br />
+We found out that `Jarbou3` is the password to unzip this file . <br />
 
-Details
+![image](https://github.com/user-attachments/assets/18f62113-d56c-45e8-810b-48dfbbf76baa)
+
+The file conatins 100 txt files inside of it ,and only one of them contain the flag . 
+
+So i executed this command that show all files in my directory , prints their content and grep specific flag pattern
+
+![image](https://github.com/user-attachments/assets/17266f9e-d930-4f82-b3ab-a33de5e50339)
+
+
+
+
+
+
+
+
 
 ## Challenge6
 ![image](https://github.com/user-attachments/assets/7e715c2f-91e6-4217-8acb-c63b52074322)
