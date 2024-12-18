@@ -48,4 +48,5 @@ I tried various tools like file, `exiftool`, `binwalk`, and `strings` to extract
 The only tool that seemed promising was `Steghide`, which requires a password to extract hidden data. I tried several passwords, including an empty one, but none worked.
 
 Finally, I discovered that the password `"cat"` successfully extracted the hidden file called `secret.txt` that contain the flga decrepted in base 64.
+
 ![image](https://github.com/user-attachments/assets/d18f2b57-38fe-488a-945b-f81b7b036f2c)
