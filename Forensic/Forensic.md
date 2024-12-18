@@ -1,7 +1,8 @@
 # Here is my Forensic Solution
 - [Challenge1](#challenge1)
-- [Challenge2](#challenge2)
-- [Challenge3](#challenge3)
+- [Incognito XD](#challenge2)
+- [STEG TN](#challenge3)
+- [Challenge3](#challenge4)
 
 ---
 ## Challenge1
@@ -38,14 +39,24 @@ result :
 
 
 ## Challenge2
-![image](https://github.com/user-attachments/assets/26b0cd4e-2a5c-4378-9087-c3020e9057e4)
+![image](https://github.com/user-attachments/assets/9728e39a-0533-4b44-bc98-16344e80c35f)
 
-details
+File : [Foren-easy.pcapng](Foren-easy.pcapng)  <br />
+Solution : 	<br />
+In this challenge, we analyzed `Foren-easy.pcapng` using `Wireshark`. <br />
+First, we exported objects under `HTTP` and found a file, `readme.md`, which contained the flag.<br /> 
+![image](https://github.com/user-attachments/assets/4fdd16c3-dc41-4870-ac78-8993f062d57a)
+![image](https://github.com/user-attachments/assets/bc33ed1d-1411-4eb2-b5a1-4a4a62270ba5)
+![image](https://github.com/user-attachments/assets/8586535f-af6d-4e31-8ad7-303a472b27cd)
 
-## Challenge3
-![image](https://github.com/user-attachments/assets/7e715c2f-91e6-4217-8acb-c63b52074322)
+Alternatively, using `Ctrl + F` to search for the flag pattern `SECURINETSISITCOM` in the packet data also revealed the flag. Both methods successfully retrieved the flag.<br /> 
 
-Details 
+![image](https://github.com/user-attachments/assets/7f139e9e-98c7-46ad-9baf-ab48134b3e83)
+
+
+
+
+
 
 ## Challenge4
 ![image](https://github.com/user-attachments/assets/bb74e8de-38a9-4dd2-9f24-ce7e926580e3)
@@ -58,18 +69,14 @@ Details
 Details
 
 ## Challenge6
-![image](https://github.com/user-attachments/assets/19a6cb60-e6ec-4bbb-a7ba-3f0aeab03c04)
-Details
-
-## Challenge7
-![image](https://github.com/user-attachments/assets/27d90f4d-e27c-48e8-9b6b-1565e450cb90)
-
+![image](https://github.com/user-attachments/assets/7e715c2f-91e6-4217-8acb-c63b52074322)
 Details
 
 
-## Challenge7
-![image](https://github.com/user-attachments/assets/9728e39a-0533-4b44-bc98-16344e80c35f)
 
+## Challenge7
+
+![image](https://github.com/user-attachments/assets/26b0cd4e-2a5c-4378-9087-c3020e9057e4)
 Details
 
 
