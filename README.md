@@ -27,7 +27,8 @@ i have played in SECURINETSISITCOM_CTF and i want to share my solution
 ## Reverse Engineering 
 [Click Here](Reverse%20Engineering%20/Reverse.md)
 ## OSINT
-[NO SOLUTIONS](OSINT/Osint.md)
+[NO SOLUTIONS](OSINT/Osint.md) (Some Challenges Remained Unsolved)
 ## WEB
-[NO SOLUTIONS](WEB/Web.md)
+[Click Here](WEB/Web.md) (Some Challenges Remained Unsolved)
+
 
