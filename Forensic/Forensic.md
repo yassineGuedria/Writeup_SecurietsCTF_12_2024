@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7f648b89-f5ed-4e96-b68d-1b0b6bd562a6)# Here is my Forensic Solution
+# Here is my Forensic Solution
 - [FERX TRIEX](#challenge1)
 - [Incognito XD](#challenge2)
 - [WH3R3 1S M3](#challenge3)
