@@ -8,9 +8,14 @@
 Name : `Asteroid` <br />
 Points :150 <br />
 Description :STOPPP the Asteroid PLSSS!! From here :  `nc 151.80.133.55 8888` <br />
-file :   <br />
 Solution : 	<br />
-We were given an RSA-encrypted flag with the following parameters:<br />
+We got an Asteroid that going to hit the earth in this challenge and our mission is to protect the earth<br />
+![image](https://github.com/user-attachments/assets/8e4e3327-8f80-4120-859a-43fa2b594b1b)<br />
+
+![image](https://github.com/user-attachments/assets/40444224-58d8-48a4-b2ab-9a3329b64d08)
+![image](https://github.com/user-attachments/assets/5aa6da95-d7e4-4485-9917-fd9d8af71988)
+![image](https://github.com/user-attachments/assets/e87e0c45-1120-40e9-8386-d9a6fcbb3825)
+
 
 
 ## Challenge2
