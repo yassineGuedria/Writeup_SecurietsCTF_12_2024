@@ -24,10 +24,10 @@ i have played in SECURINETSISITCOM_CTF and i want to share my solution
 [Click Here](Cryptographie/Cryptographie.md)
 ## Forensic
 [Click Here](Forensic/Forensic.md)
-## Reverse Engineering
-[Click Here](Reverse_Engineering.md)
+## Reverse Engineering 
+[Click Here](Reverse Engineering /Reverse.md)
 ## OSINT
-[Click Here](OSINT.md)
+NO SOLUTIONS YET
 ## WEB
-[Click Here](WEB.md)
+NO SOLUTIONS YET
 
