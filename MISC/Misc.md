@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ab59cf6e-5536-400a-b97b-a46f6f367ed7)# Here is my MISC Solution
+# Here is my MISC Solution
 - [Welcome](#challenge1)
 - [Asteroid](#challenge2)
 - [SPACE ADVENTURE](#challenge3)
