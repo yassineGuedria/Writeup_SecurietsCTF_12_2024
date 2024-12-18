@@ -134,8 +134,7 @@ Description : <br />
 >Join our Discord server to uncover the second flag! Don’t miss out—click here: `https://discord.gg/rsu5AqUY`
 
 Solution : 	<br />
-download a plugin in discord that shows the hiddens chanells
-`better discord` its name
+In this challenge, we needed to find a hidden flag in a SECURINETS Discord server. By installing `BetterDiscord` and using the `"ShowHiddenChannels"` plugin, we revealed hidden channels that were otherwise inaccessible by member. 
 
 
 
