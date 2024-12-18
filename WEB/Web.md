@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/75ad473c-1c2e-4595-940d-d2854a55ab42)# Here is my Web Solution
+# Here is my Web Solution
 - [R3qu3ST](#challenge1)
 - [PHP Sh1t](#challenge2)
 - [SSTI ?](#challenge3)
