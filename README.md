@@ -5,7 +5,8 @@ SecurinetsIsitcom CTF 14-12-2024
 
 i have played in SECURINETSISITCOM_CTF and i want to share my solution
 
-![image](https://github.com/user-attachments/assets/d16549fa-4fb3-492e-b01e-735a763834e0)
+
+![image](https://github.com/user-attachments/assets/2e75d260-6696-4575-a9a9-295c0a7264a8)
 
 - [MISC](#misc)
 - [Steganographie](#steganographie)
